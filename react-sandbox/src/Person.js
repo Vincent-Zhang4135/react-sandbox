@@ -30,7 +30,9 @@ const Person = (person) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
         >
-            <motion.div drag dragConstraints={constraintsRef} className="list">
+            <motion.div drag 
+            // dragConstraints={constraintsRef} 
+            className="list">
                 <motion.span
                     whileHover={{ scale: 1.2, rotate: 180 }}
                     whileTap={{
