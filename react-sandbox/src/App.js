@@ -19,7 +19,7 @@ function App() {
             })
         }
         </div>
-        <Ball/>
+        {/*<Ball/>*/}
       </header>
     </div>
   );
