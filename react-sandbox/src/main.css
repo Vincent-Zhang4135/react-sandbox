@@ -54,13 +54,13 @@
 
 
 .up {
-    transform: rotate(-135deg) translateX(5px) translateY(0px);
-    -webkit-transform: rotate(-135deg) translateX(5px) translateY(0);
+    transform: rotate(-135deg) translateX(3px) translateY(3px);
+    -webkit-transform: rotate(-135deg) translateX(3px) translateY(3px);
 }
 
 .down {
-    transform: rotate(45deg) translateX(-2px) translateY(-2px);
-    -webkit-transform: rotate(45deg) translateX(-2px) translateY(-2px);
+    transform: rotate(45deg) translateX(-5px) translateY(-5px);
+    -webkit-transform: rotate(45deg) translateX(-5px) translateY(-5px);
 }
 
 .arrow {

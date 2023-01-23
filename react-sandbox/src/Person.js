@@ -21,7 +21,7 @@ const Person = (person) => {
     if (person.name == "Cosmos") {
         rate = 99999;
     }
-    const rating = useState(rate);
+    const [rating, setRating] = useState(rate);
 
     return (
         <div className="list">
@@ -41,10 +41,10 @@ const Person = (person) => {
                     </span>
                     <span className="rating">{rating}</span>
                     <span className="buttons">
-                        <button class="button">
+                        <button class="button" onClick={()=> { setRating(rating+1);}}>
                             <i class="arrow up" />
                         </button>
-                        <button class="button">
+                        <button class="button" onClick={()=> { setRating(rating+100);}}>
                             <i class="arrow down" />
                         </button>
                     </span>
