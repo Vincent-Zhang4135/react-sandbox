@@ -6,7 +6,7 @@
 }
 
 .list {
-    margin: 8px 0px;
+    margin: 16px 0px;
     border-style: solid;
     border-radius: 8px;
     border-color: #ffffff;
@@ -31,6 +31,7 @@
 }
 
 .rating {
+    padding: 10px;
     flex: 1;
     align-self: center;
 }
@@ -68,4 +69,11 @@
     border: solid black;
     border-width: 0 3px 3px 0;
     padding: 3px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #90fff9;
 }

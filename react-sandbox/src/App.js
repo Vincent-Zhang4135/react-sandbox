@@ -2,6 +2,7 @@ import './App.css';
 import People from "./People.js";
 import Person from "./Person.js";
 import Title from "./Title.js";
+import Ball from "./Ball.js";
 
 import './main.css';
 
@@ -18,6 +19,7 @@ function App() {
             })
         }
         </div>
+        <Ball/>
       </header>
     </div>
   );
