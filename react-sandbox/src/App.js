@@ -11,9 +11,10 @@ function App() {
       <header className="App-header">
         <Title/>
         <div className="container">
+        <Person person={{name: "", teams: "", is: ""}}/>
         {
             People.map((person) => {
-                return <Person id={person} person={person}/>
+                return <Person key={person} person={person}/>
             })
         }
         </div>

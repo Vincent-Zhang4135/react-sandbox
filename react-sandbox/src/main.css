@@ -1,7 +1,7 @@
 .container {
     padding-left: 15%;
     padding-right: 15%;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -19,10 +19,53 @@
     padding: 5px;
     font-weight: bold;
     font-size: 1.3em;
+    align-self: center;
 }
 
 .description {
     flex: 3;
     padding: 5px;
-    font-size: .75em;
+    font-size: 0.75em;
+    width: 100%;
+    max-width: 100%;
+}
+
+.rating {
+    flex: 1;
+    align-self: center;
+}
+
+.buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.button {
+    align-self: center;
+    max-width: 30px;
+    max-height: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.up {
+    transform: rotate(-135deg) translateX(5px) translateY(0px);
+    -webkit-transform: rotate(-135deg) translateX(5px) translateY(0);
+}
+
+.down {
+    transform: rotate(45deg) translateX(-2px) translateY(-2px);
+    -webkit-transform: rotate(45deg) translateX(-2px) translateY(-2px);
+}
+
+.arrow {
+    display: inline-block;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
 }
